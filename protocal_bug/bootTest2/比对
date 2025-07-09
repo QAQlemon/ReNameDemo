@@ -1,0 +1,47 @@
+弧长
+dwf
+    data[1]:reg_addr=2a4,reg_data=2,addr=ad,data=2        材料气体
+    data[2]:reg_addr=28b,reg_data=150,addr=80,data=150
+    data[3]:reg_addr=26b,reg_data=380,addr=66,data=380
+    data[4]:reg_addr=28a,reg_data=50,addr=7f,data=50
+    data[5]:reg_addr=26a,reg_data=240,addr=65,data=240
+    data[6]:reg_addr=28e,reg_data=150,addr=83,data=150
+    data[7]:reg_addr=26e,reg_data=380,addr=69,data=380
+    data[8]:reg_addr=28d,reg_data=50,addr=82,data=50
+    data[9]:reg_addr=26d,reg_data=50,addr=68,data=50        收弧速度max
+    data[10]:reg_addr=284,reg_data=10,addr=79,data=10
+    data[11]:reg_addr=24d,reg_data=50,addr=9c,data=50
+
+    data[1]:reg_addr=28f,reg_data=136,addr=84,data=136
+    data[2]:reg_addr=26f,reg_data=253,addr=6a,data=253
+    data[3]:reg_addr=286,reg_data=72,addr=7b,data=72
+    data[4]:reg_addr=266,reg_data=227,addr=61,data=227
+    data[5]:reg_addr=24f,reg_data=222,addr=9e,data=222
+    data[6]:reg_addr=24a,reg_data=94,addr=99,data=94
+    data[7]:reg_addr=244,reg_data=55,addr=93,data=55
+    data[8]:reg_addr=28c,reg_data=286,addr=81,data=286
+    data[9]:reg_addr=26c,reg_data=286,addr=67,data=286
+    data[10]:reg_addr=24c,reg_data=286,addr=9b,data=286
+
+500
+    data[1]:reg_addr=2b1,reg_data=56,addr=e006,data=56      丝径 可选项
+    data[2]:reg_addr=28b,reg_data=150,addr=80,data=150
+    data[3]:reg_addr=26b,reg_data=380,addr=66,data=380
+    data[4]:reg_addr=28a,reg_data=50,addr=7f,data=50
+    data[5]:reg_addr=26a,reg_data=240,addr=65,data=240
+    data[6]:reg_addr=28e,reg_data=150,addr=83,data=150
+    data[7]:reg_addr=26e,reg_data=380,addr=69,data=380
+    data[8]:reg_addr=28d,reg_data=50,addr=82,data=50
+    data[9]:reg_addr=26d,reg_data=240,addr=68,data=240      收弧速度max
+    data[10]:reg_addr=284,reg_data=10,addr=79,data=10
+    data[11]:reg_addr=24d,reg_data=50,addr=9c,data=50
+    data[12]:reg_addr=28f,reg_data=136,addr=84,data=136
+    data[13]:reg_addr=26f,reg_data=253,addr=6a,data=253
+    data[14]:reg_addr=286,reg_data=72,addr=7b,data=72
+    data[15]:reg_addr=266,reg_data=227,addr=61,data=227
+    data[16]:reg_addr=24f,reg_data=222,addr=9e,data=222
+    data[17]:reg_addr=24a,reg_data=94,addr=99,data=94
+    data[18]:reg_addr=244,reg_data=55,addr=93,data=55
+    data[19]:reg_addr=28c,reg_data=286,addr=81,data=286
+    data[20]:reg_addr=26c,reg_data=286,addr=67,data=286
+    data[21]:reg_addr=24c,reg_data=286,addr=9b,data=286

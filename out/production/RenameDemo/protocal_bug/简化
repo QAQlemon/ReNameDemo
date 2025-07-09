@@ -1,0 +1,26 @@
+1.峰值电流80
+modbus tx:01 06 02 4B 00 50 F8 58
+modbus rx:01 06 02 4B 00 50 F8 58
+
+2.峰值电流83
+不发送
+
+3.峰值电流92
+modbus tx:01 06 02 4B 00 5C F8 5D
+modbus rx:01 06 02 4B 00 5C F8 5D
+
+
+4.检测到外部修改
+modbus tx:01 03 00 20 00 41 84 30
+modbus rx:01 03 82 00 08 02 4A 00 12 02 44 00 0A 02 8C 00 D7 02 6C 00 D7 02 86 00 64 02 66 00 C7 02 4C 00 D7 02 4B 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0F 2E
+modbus cb dealing:cb_func=0xffb661
+cb_query_external_param:reg_num=8
+ data[1]:reg_addr=24a,reg_data=18,addr=99,data=18
+ data[2]:reg_addr=244,reg_data=10,addr=93,data=10
+ data[3]:reg_addr=28c,reg_data=215,addr=81,data=215
+ data[4]:reg_addr=26c,reg_data=215,addr=67,data=215
+ data[5]:reg_addr=286,reg_data=100,addr=7b,data=100
+ data[6]:reg_addr=266,reg_data=199,addr=61,data=199
+ data[7]:reg_addr=24c,reg_data=215,addr=9b,data=215
+ data[8]:reg_addr=24b,reg_data=80,addr=9a,data=80
+

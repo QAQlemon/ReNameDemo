@@ -1,0 +1,48 @@
+操作
+    01.退出待机后数据不一样
+        data[1]:reg_addr=0,reg_data=0,addr=0,data=0 报警
+        data[2]:reg_addr=0,reg_data=0,addr=0,data=0 报警
+        data[3]:reg_addr=28a,reg_data=18,addr=7f,data=18    mig峰值速度min 50[18,240]
+            500 18
+        data[4]:reg_addr=26a,reg_data=240,addr=65,data=240  mig峰值速度max 50[18,240]
+            500 240
+        data[5]:reg_addr=28b,reg_data=30,addr=80,data=30    mig峰值电流min  FF[30,500]
+            500 30
+        data[6]:reg_addr=26b,reg_data=500,addr=66,data=500  mig峰值电流max  FF[30,500]
+            500 500
+        data[7]:reg_addr=284,reg_data=10,addr=79,data=10    mig母材min    FF[10,160]
+            500 10
+        data[8]:reg_addr=264,reg_data=160,addr=5f,data=160  mig母材max    FF[10,160]
+            500 160
+        data[9]:reg_addr=28c,reg_data=100,addr=81,data=100  mig电压min    190[100,480]
+            500 480
+        data[10]:reg_addr=26c,reg_data=480,addr=67,data=480 mig电压max    190[100,480]
+            500 100
+        data[11]:reg_addr=266,reg_data=300,addr=61,data=300 mig弧长   FF[0,300]
+            dwf 300
+            500 300
+        data[12]:reg_addr=28d,reg_data=18,addr=82,data=18   收弧速度min FF[18,240]
+            500 18
+        data[13]:reg_addr=26d,reg_data=240,addr=68,data=240 收弧速度max FF[18,240]
+            500 240
+        data[14]:reg_addr=28e,reg_data=30,addr=83,data=30   收弧电流min FF[30,500]
+            500 30
+        data[15]:reg_addr=26e,reg_data=500,addr=69,data=500 收弧电流max FF[30,500]
+            500 500
+        data[16]:reg_addr=28f,reg_data=100,addr=84,data=100 收弧电压min [100,480]
+            500 100
+        data[17]:reg_addr=26f,reg_data=480,addr=6a,data=480 收弧电压max [100,480]
+            500 480
+        data[18]:reg_addr=0,reg_data=0,addr=0,data=0    报警
+
+    02.在500上，将mig的操作模式切换到一元化
+        dwf
+            0x02a5 一元化 2
+            0x0244 母材板厚 55  55[10,160]
+            0x028C 峰值电压min  190[100,480]->190[190,480]
+            0x024B mig峰值电流  FF[30,500]->30[30,500]
+            0x026C 峰值电压max  190[190,480]->190[190,221]
+            0x028f
+
+        500
+

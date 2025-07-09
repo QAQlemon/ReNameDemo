@@ -1,0 +1,30 @@
+[11:16:54.786]收←◆deal sleep
+
+[11:16:55.470]收←◆
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=c:eb1d,cb_cunc2=0xffeb1d
+modbus tx:01 03 01 94 00 01 C4 1A
+
+[11:16:55.499]收←◆modbus rx:01 03 02 00 03 F8 45
+modbus cb dealing:cb_func=0xffeb1d
+cb-椿刺篻_sleep_flag=255
+deal exit sleep
+refresh test：i=0,pageid_now=0,pageid_old=19,pageid_pre=29
+0：x=-71,y=53,vp=-71
+1：x=59,y=53,vp=0
+2：x=189,y=53,vp=2
+3：x=319,y=53,vp=22
+4：x=449,y=53,vp=29
+5：x=579,y=53,vp=25
+6：x=709,y=53,vp=26
+7：x=839,y=53,vp=3
+8：x=969,y=53,vp=3
+9：x=1099,y=53,vp=7
+10：x=1229,y=53,vp=13
+
+[11:16:55.537]收←◆keep awake
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+[11:16:55.606]收←◆deal sleep
+modbus tx:01 03 01 94 00 01 C4 1A
+modbus rx:01 03 02 00 03 F8 45

@@ -1,0 +1,1855 @@
+Firmware build time[10:52:36]
+sizeof(user_info_t) = 85
+timer task init, max[8]
+dgus init, registered page num[26], max page num[26]
+zc-协议初始化后：s_synmig_max_para->arc_length=0
+create timer task[0]
+加载中
+readn_order_reg:reg_addr=b1,reg_num=7,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=c4,reg_num=16,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=190,reg_num=9,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=190,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=440,reg_num=50,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:0->1
+
+readn_order_reg:reg_addr=260,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=280,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=240,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=2a0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1000,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1040,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1080,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10c0,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1100,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1140,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1180,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11c0,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1200,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1240,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1030,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1070,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10b0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10f0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1130,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1170,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11b0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11f0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1230,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1270,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:1->2
+modbus tx:01 03 00 B1 00 07 54 2F
+modbus rx:01 03 0E 05 2C 00 65 00 00 00 00 00 00 00 00 00 01 AA B1
+modbus tx:01 03 00 C4 00 10 05 FB
+modbus rx:01 03 20 00 64 01 5E 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 6D FA
+modbus tx:01 03 01 90 00 09 84 1D
+modbus rx:01 03 12 00 08 00 02 00 01 FF FF 00 02 FF FF FF FF 00 01 FF FF 98 C2
+modbus tx:01 03 01 90 00 01 85 DB
+modbus rx:01 03 02 00 08 B9 82
+modbus tx:01 03 04 40 00 32 C4 FB
+modbus rx:01 03 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9B 3C
+modbus tx:01 03 02 60 00 1A C5 A7
+modbus rx:01 03 34 00 14 00 32 FF FF FF FF 00 A0 00 14 00 EA FF FF FF FF FF FF 00 BE 00 FA 01 31 00 BE 00 FA 00 DA FF FF FF FF FF FF 00 64 03 20 FF FF 00 C8 00 C8 FF FF 00 B4 7E A7
+modbus tx:01 03 02 80 00 1A C4 51
+modbus rx:01 03 34 00 00 00 00 FF FF FF FF 00 0A 00 00 00 42 FF FF FF FF FF FF 00 20 00 50 01 31 00 20 00 50 00 75 FF FF FF FF FF FF 00 01 00 00 FF FF 00 64 00 01 FF FF 00 0E 14 B9
+modbus tx:01 03 02 40 00 1A C4 6D
+modbus rx:01 03 34 00 00 00 32 FF FF FF FF 00 55 00 11 00 AF FF FF FF FF FF FF 00 80 00 CB 01 31 FF FF FF FF FF FF FF FF FF FF FF FF 00 01 02 A8 FF FF 00 B9 00 AC FF FF 00 12 60 9B
+modbus tx:01 03 02 A0 00 0E C5 94
+modbus rx:01 03 1C 00 04 00 04 FF FF FF FF 00 06 00 02 00 01 00 01 FF FF 00 01 00 01 00 01 00 01 00 01 E8 0C
+modbus tx:01 03 10 00 00 1A C0 C1
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 40 00 1A C1 15
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 80 00 1A C1 29
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 C0 00 1A C0 FD
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 00 00 1A C1 3D
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 40 00 1A C0 E9
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 80 00 1A C0 D5
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 C0 00 1A C1 01
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 12 00 00 1A C1 79
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 12 40 00 1A C0 AD
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 30 00 0E C0 C1
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 70 00 0E C1 15
+
+readn_order_reg:reg_addr=1e0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=200,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=220,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=800,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=840,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=880,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=900,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=940,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=980,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a00,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a40,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=831,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=871,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8b1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8f1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=931,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=971,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9b1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9f1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a31,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a71,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:2->3
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 B0 00 0E C1 29
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 F0 00 0E C0 FD
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 30 00 0E C1 3D
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 70 00 0E C0 E9
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 B0 00 0E C0 D5
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 F0 00 0E C1 01
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 12 30 00 0E C1 79
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 12 70 00 0E C0 AD
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 01 E0 00 0A C5 C7
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 01 F4 FF FF FF FF 49 A0
+modbus tx:01 03 02 00 00 0A C4 75
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 14 FF FF FF FF C9 A7
+modbus tx:01 03 01 C0 00 0A C4 0D
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 02 20 00 0A C5 BF
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 01 00 01 27 7C
+modbus tx:01 03 08 00 00 0A C7 AD
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 40 00 0A C6 79
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 80 00 0A C6 45
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 C0 00 0A C7 91
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 00 00 0A C6 51
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 40 00 0A C7 85
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 80 00 0A C7 B9
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 C0 00 0A C6 6D
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 0A 00 00 0A C6 15
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 0A 40 00 0A C7 C1
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 31 00 0A 96 62
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 71 00 0A 97 B6
+
+readn_order_reg:reg_addr=2e2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=302,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=2c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=320,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1802,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1842,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1882,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1902,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1942,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1982,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a02,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a42,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1830,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1870,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18b0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18f0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1930,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1970,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19b0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19f0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a30,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a70,reg_num=6,cb_func=c:e19d,cb_cunc2=0xffe19d
+init_param_status:3
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 B1 00 0A 97 8A
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 F1 00 0A 96 5E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 31 00 0A 97 9E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 71 00 0A 96 4A
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 B1 00 0A 96 76
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 F1 00 0A 97 A2
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 0A 31 00 0A 97 DA
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 0A 71 00 0A 96 0E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 02 E2 00 03 A4 45
+modbus rx:01 03 06 00 C8 00 C8 01 F4 41 4C
+modbus tx:01 03 03 02 00 03 A4 4F
+modbus rx:01 03 06 00 00 00 00 00 14 21 7A
+modbus tx:01 03 02 C2 00 03 A5 8F
+modbus rx:01 03 06 00 00 00 28 00 82 21 1C
+modbus tx:01 03 03 20 00 06 C4 46
+modbus rx:01 03 0C FF FF FF FF 00 01 FF FF 00 01 00 01 07 AE
+modbus tx:01 03 18 02 00 03 A2 AB
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 42 00 03 A3 7F
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 82 00 03 A3 43
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 C2 00 03 A2 97
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 02 00 03 A3 57
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 42 00 03 A2 83
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 82 00 03 A2 BF
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 C2 00 03 A3 6B
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 1A 02 00 03 A3 13
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 1A 42 00 03 A2 C7
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 30 00 06 C3 67
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 70 00 06 C2 B3
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 B0 00 06 C2 8F
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 F0 00 06 C3 5B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 30 00 06 C2 9B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 70 00 06 C3 4F
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 B0 00 06 C3 73
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 F0 00 06 C2 A7
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 1A 30 00 06 C2 DF
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 1A 70 00 06 C3 0B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus cb dealing:cb_func=0xffe19d
+protocal init finished,now_page=25,old_page=25,pre_page=25
+ update external param
+
+readn_order_reg:reg_addr=20,reg_num=65,cb_func=c:b321,cb_cunc2=0xffb321
+check unconnected
+realtime: exit sleep
+modbus tx:01 03 00 20 00 41 84 30
+modbus rx:01 03 82 00 02 02 86 00 42 02 66 00 EA 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 AE 16
+modbus cb dealing:cb_func=0xffb321
+cb_query_external_param:reg_num=2
+ data[1]:reg_addr=286,reg_data=66,addr=7b,data=66
+ data[2]:reg_addr=266,reg_data=234,addr=61,data=234
+
+refresh test：i=25,pageid_now=25,pageid_old=25,pageid_pre=102
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no locate
+no lo

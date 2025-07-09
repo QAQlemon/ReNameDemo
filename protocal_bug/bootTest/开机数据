@@ -1,0 +1,155 @@
+开机状态：已恢复出厂后，重新开机，mig手动2T
+
+0x0190  通用参数
+        最大      最小      当前      控制
+mig     0x0260   0x0280   0x0240   0x02A0
+tig     0x01E0   0x0200   0x01C0   0x0220
+mma     0x02E2   0x0302   0x02C2
+
+3.通用参数
+0x0190
+    数据
+        modbus tx:01 03 01 90 00 09 84 1D
+        modbus rx:01 03 12
+        00 08   00 01   __ __   FF FF  00 03
+        模式      遥控   恢复出厂 数据单位 待机时间
+        FF FF   FF FF   00 01   FF FF
+        过压保护  语言    遥控模式  简易模式
+        D4 D2
+    差异
+        恢复出厂
+            dwf     0000
+            500     0001
+
+5.mig
+0x0260  最大
+    数据：
+        modbus tx:01 03 02 60 00 1A C5 A7
+        modbus rx:01 03 34
+        00 14 00 32 FF FF FF FF 00 A0
+        前气   后气   __    __    母材
+        00 14 01 2C FF FF FF FF FF FF
+        电感   弧长   __    __    __
+        00 F0 01 F4 01 E0 00 F0 01 F4
+        送丝   电流   电压   收速度 收电流
+        01 E0 FF FF FF FF FF FF 00 64
+        收压   __    __    __    点焊时
+        03 20 FF FF 00 C8 00 C8 FF FF
+        反烧时 __    发烧压 软启动  __
+        00 B4
+        慢送丝
+        F5 7F
+0x0280  最小
+    数据：
+        modbus tx:01 03 02 80 00 1A C4 51
+        modbus rx:01 03 34
+        00 00 00 00 FF FF FF FF 00 0A
+        前气   后气   __    __    母材
+        00 00 00 00 FF FF FF FF FF FF
+        电感   弧长   __    __    __
+        00 12 00 1E 00 64 00 12 00 1E
+        送丝   电流   电压   收速度 收电流
+        00 64 FF FF FF FF FF FF 00 01
+        收压   __    __    __    点焊时
+        00 00 FF FF 00 64 00 01 FF FF
+        反烧时 __    发烧压 软启动  __
+        00 0E
+        慢送丝
+        6E C8
+0x0240  当前
+    数据：
+        modbus tx:01 03 02 40 00 1A C4 6D
+        modbus rx:01 03 34
+        00 01 00 05 FF FF FF FF FF FF
+        前气   后气   __    __    母材
+        00 0A FF FF FF FF FF FF FF FF
+        电感   弧长   __    __    __
+        00 32 FF FF 00 BE FF FF FF FF
+        送丝   电流?   电压 收速度 收电流
+        FF FF FF FF FF FF FF FF FF FF
+        收压   __    __    __    点焊时
+        00 C8 FF FF 00 63 00 00 FF FF
+        反烧时 __    发烧压 软启动  __
+        00 0D
+        慢送丝
+        E7 5C
+
+0x02A0  控制
+    数据：
+        modbus tx:01 03 02 A0 00 0E C5 94
+        modbus rx:01 03 1C
+        00 01 __ __ FF FF FF FF 00 01
+        操作   丝径   __    __    材料气体
+        00 01 00 01 00 01 FF FF 00 01
+        一元化 智省   焊枪   __    检气
+        00 01 __ __ __ __ 00 01
+        检丝   通存   通调   冷却
+        C0 5D
+    差异：
+        丝径
+            dwf 0001
+            500 0005
+
+6.tig
+0x01E0  最大
+    数据：
+        modbus tx:01 03 01 E0 00 0A C5 C7
+        modbus rx:01 03 14
+        FF FF FF FF FF FF FF FF FF FF
+        __    __    前气   后气   __
+        00 05 FF FF 01 F4 FF FF FF FF
+        衰减   __    电流
+        49 A0
+0x0200  最小
+    数据：
+        modbus tx:01 03 02 00 00 0A C4 75
+        modbus rx:01 03 14
+        FF FF FF FF FF FF FF FF FF FF
+        __    __    前气   后气   __
+        00 05 FF FF 00 14 FF FF FF FF
+        衰减   __    电流
+        C9 A7
+0x01C0  当前
+    数据：
+        modbus tx:01 03 01 C0 00 0A C4 0D
+        modbus rx:01 03 14
+        FF FF FF FF FF FF FF FF FF FF
+        __    __    前气   后气   __
+        00 05 FF FF 00 64 FF FF FF FF
+        衰减   __    电流
+        88 6C
+0x0220  控制
+    数据：
+        modbus tx:01 03 02 20 00 0A C5 BF
+        modbus rx:01 03 14
+        FF FF FF FF FF FF FF FF FF FF
+        操作   __    冷却   __    智省
+        FF FF __ __ FF FF __ __ __ __
+        __    检气   __    通存   通调
+        F7 77
+    差异：
+        检气
+            dwf 0000
+            500 FFFF
+7.mma
+0x02E2  最大
+    数据：
+        modbus tx:01 03 02 E2 00 03 A4 45
+        modbus rx:01 03 06
+        00 C8 00 C8 01 F4
+        热引弧 推力   输出
+        41 4C
+0x0302  最小
+    数据：
+        modbus tx:01 03 03 02 00 03 A4 4F
+        modbus rx:01 03 06
+        00 00 00 00 00 14
+        热引弧 推力   输出
+        21 7A
+0x02C2  当前
+    数据：
+        modbus tx:01 03 02 C2 00 03 A5 8F
+        modbus rx:01 03 06
+        00 64 00 28 00 82
+        热引弧 推力   输出
+        50 D4

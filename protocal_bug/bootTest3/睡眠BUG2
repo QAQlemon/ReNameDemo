@@ -1,0 +1,1236 @@
+Firmware build time[14:15:51]
+sizeof(user_info_t) = 85
+timer task init, max[8]
+dgus init, registered page num[26], max page num[26]
+zc-协议初始化后：s_synmig_max_para->arc_length=0
+create timer task[0]
+加载中
+readn_order_reg:reg_addr=b1,reg_num=7,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=c4,reg_num=16,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=190,reg_num=9,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=190,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=440,reg_num=50,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:0->1
+
+readn_order_reg:reg_addr=260,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=280,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=240,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=2a0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1000,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1040,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1080,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10c0,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1100,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1140,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1180,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11c0,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1200,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1240,reg_num=26,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1030,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1070,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10b0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=10f0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1130,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1170,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11b0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=11f0,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1230,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1270,reg_num=14,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:1->2
+modbus tx:01 03 00 B1 00 07 54 2F
+modbus rx:01 03 0E 05 2C 00 65 00 00 00 00 00 00 00 00 00 01 AA B1
+modbus tx:01 03 00 C4 00 10 05 FB
+modbus rx:01 03 20 00 64 01 5E 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 6D FA
+modbus tx:01 03 01 90 00 09 84 1D
+modbus rx:01 03 12 00 08 00 01 00 01 FF FF 00 02 FF FF FF FF 00 02 FF FF 2B C3
+modbus tx:01 03 01 90 00 01 85 DB
+modbus rx:01 03 02 00 08 B9 82
+modbus tx:01 03 04 40 00 32 C4 FB
+modbus rx:01 03 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9B 3C
+modbus tx:01 03 02 60 00 1A C5 A7
+modbus rx:01 03 34 00 14 00 32 FF FF FF FF 00 A0 00 14 00 F4 FF FF FF FF FF FF 00 F0 00 DC 01 0C 00 F0 00 DC 00 CA FF FF FF FF FF FF 00 64 03 20 FF FF 00 C8 00 C8 FF FF 00 B4 20 D4
+modbus tx:01 03 02 80 00 1A C4 51
+modbus rx:01 03 34 00 00 00 00 FF FF FF FF 00 0A 00 00 00 37 FF FF FF FF FF FF 00 44 00 5A 01 0C 00 44 00 5A 00 6D FF FF FF FF FF FF 00 01 00 00 FF FF 00 64 00 01 FF FF 00 0E 06 6D
+modbus tx:01 03 02 40 00 1A C4 6D
+modbus rx:01 03 34 00 02 00 32 FF FF FF FF 00 78 00 04 00 67 FF FF FF FF FF FF 00 F0 00 DC 01 0C FF FF FF FF FF FF FF FF FF FF FF FF FF FF 02 A8 FF FF 00 B9 00 AC FF FF 00 12 DA 47
+modbus tx:01 03 02 A0 00 0E C5 94
+modbus rx:01 03 1C 00 01 00 02 FF FF FF FF 00 06 00 02 00 01 00 01 FF FF 00 01 00 01 00 01 00 01 00 01 16 92
+modbus tx:01 03 10 00 00 1A C0 C1
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 40 00 1A C1 15
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 80 00 1A C1 29
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 C0 00 1A C0 FD
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 00 00 1A C1 3D
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 40 00 1A C0 E9
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 80 00 1A C0 D5
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 11 C0 00 1A C1 01
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 12 00 00 1A C1 79
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 12 40 00 1A C0 AD
+modbus rx:01 03 34 00 01 00 05 FF FF FF FF FF FF 00 0A FF FF FF FF FF FF FF FF 00 32 FF FF 00 BE FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 C8 FF FF 00 63 00 00 FF FF 00 0D E7 5C
+modbus tx:01 03 10 30 00 0E C0 C1
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 70 00 0E C1 15
+
+readn_order_reg:reg_addr=1e0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=200,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=220,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=800,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=840,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=880,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=900,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=940,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=980,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9c0,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a00,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a40,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=831,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=871,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8b1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=8f1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=931,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=971,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9b1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=9f1,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a31,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=a71,reg_num=10,cb_func=i:0000,cb_cunc2=0x0
+init_param_status:2->3
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 B0 00 0E C1 29
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 10 F0 00 0E C0 FD
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 30 00 0E C1 3D
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 70 00 0E C0 E9
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 B0 00 0E C0 D5
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 11 F0 00 0E C1 01
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 12 30 00 0E C1 79
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 12 70 00 0E C0 AD
+modbus rx:01 03 1C 00 01 00 05 FF FF FF FF 00 01 00 01 00 01 00 01 FF FF FF FF FF FF FF FF FF FF 00 01 B8 1B
+modbus tx:01 03 01 E0 00 0A C5 C7
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 01 F4 FF FF FF FF 49 A0
+modbus tx:01 03 02 00 00 0A C4 75
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 14 FF FF FF FF C9 A7
+modbus tx:01 03 01 C0 00 0A C4 0D
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 02 20 00 0A C5 BF
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 01 00 01 27 7C
+modbus tx:01 03 08 00 00 0A C7 AD
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 40 00 0A C6 79
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 80 00 0A C6 45
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 C0 00 0A C7 91
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 00 00 0A C6 51
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 40 00 0A C7 85
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 80 00 0A C7 B9
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 09 C0 00 0A C6 6D
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 0A 00 00 0A C6 15
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 0A 40 00 0A C7 C1
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF 00 05 FF FF 00 64 FF FF FF FF 88 6C
+modbus tx:01 03 08 31 00 0A 96 62
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 71 00 0A 97 B6
+
+readn_order_reg:reg_addr=2e2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=302,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=2c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=320,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1802,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1842,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1882,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1902,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1942,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1982,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19c2,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a02,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a42,reg_num=3,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1830,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1870,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18b0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=18f0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1930,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1970,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19b0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=19f0,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a30,reg_num=6,cb_func=i:0000,cb_cunc2=0x0
+
+readn_order_reg:reg_addr=1a70,reg_num=6,cb_func=c:e222,cb_cunc2=0xffe222
+init_param_status:3
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 B1 00 0A 97 8A
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 08 F1 00 0A 96 5E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 31 00 0A 97 9E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 71 00 0A 96 4A
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 B1 00 0A 96 76
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 09 F1 00 0A 97 A2
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 0A 31 00 0A 97 DA
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 0A 71 00 0A 96 0E
+modbus rx:01 03 14 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF B6 E8
+modbus tx:01 03 02 E2 00 03 A4 45
+modbus rx:01 03 06 00 C8 00 C8 01 F4 41 4C
+modbus tx:01 03 03 02 00 03 A4 4F
+modbus rx:01 03 06 00 00 00 00 00 14 21 7A
+modbus tx:01 03 02 C2 00 03 A5 8F
+modbus rx:01 03 06 00 00 00 28 00 82 21 1C
+modbus tx:01 03 03 20 00 06 C4 46
+modbus rx:01 03 0C FF FF FF FF 00 01 FF FF 00 01 00 01 07 AE
+modbus tx:01 03 18 02 00 03 A2 AB
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 42 00 03 A3 7F
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 82 00 03 A3 43
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 C2 00 03 A2 97
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 02 00 03 A3 57
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 42 00 03 A2 83
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 82 00 03 A2 BF
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 19 C2 00 03 A3 6B
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 1A 02 00 03 A3 13
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 1A 42 00 03 A2 C7
+modbus rx:01 03 06 00 64 00 28 00 82 50 D4
+modbus tx:01 03 18 30 00 06 C3 67
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 70 00 06 C2 B3
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 B0 00 06 C2 8F
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 18 F0 00 06 C3 5B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 30 00 06 C2 9B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 70 00 06 C3 4F
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 B0 00 06 C3 73
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 19 F0 00 06 C2 A7
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 1A 30 00 06 C2 DF
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus tx:01 03 1A 70 00 06 C3 0B
+modbus rx:01 03 0C FF FF FF FF FF FF FF FF FF FF FF FF C6 F1
+modbus cb dealing:cb_func=0xffe222
+protocal init finished,now_page=25,old_page=25,pre_page=25
+
+boot_animation_end
+MIG工作组：1
+page_effect_init:pre
+page_effect_init finished
+sys_param_init:pre
+sys_param_init finished
+aaaaaaaaaaaaaaaaaa
+check unconnected
+realtime: exit sleep,tick=5078
+keep awake,tick=11879
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(969, 550)
+modbus tx:01 03 01 94 00 01 C4 1A
+
+press:touch_status=1
+(969, 550)
+touch_val = 0x02
+test 1:btn=2,status=2
+modbus rx:01 03 02 00 02 39 85
+
+release:touch_status=1
+(969, 550),tick=12047
+
+touch:touch_status=0
+(427, 427)
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 20
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 29
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 48
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 54
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 57
+
+press:touch_status=1
+(427, 427)
+机器设置sliding_bar_val = 58
+
+press:touch_status=1
+(427, 427)
+
+press:touch_status=1
+(427, 427)
+
+press:touch_status=1
+(427, 427)
+
+release:touch_status=1
+(427, 427),tick=13811
+
+touch:touch_status=0
+(381, 407)
+
+release:touch_status=1
+(381, 407),tick=14078
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：5
+zc-冷却方式=1
+机器设置弹出菜单：0
+
+touch:touch_status=0
+(480, 350)
+
+release:touch_status=1
+(480, 350),tick=15032
+机器设置二级菜单点击：1
+zc-机器设置-menue=5
+水冷
+
+write_reg:reg_addr=2ad,reg_data=2,cb_func=c:e6f2,cb_cunc2=0xffe6f2
+modbus tx:01 06 02 AD 00 02 98 52
+modbus rx:01 06 02 AD 00 02 98 52
+modbus cb dealing:cb_func=0xffe6f2
+cb-机器设置,冷却方式：2
+
+touch:touch_status=0
+(435, 439)
+
+press:touch_status=1
+(435, 439)
+机器设置菜单按压：6
+
+release:touch_status=1
+(435, 439),tick=18139
+zc-机器设置抬起当前项：5
+zc-机器设置抬起点击项：6
+zc-控制方式=2，s=2
+机器设置弹出菜单：0
+
+touch:touch_status=0
+(467, 477)
+
+release:touch_status=1
+(467, 477),tick=19118
+机器设置二级菜单点击：2
+zc-机器设置-menue=6
+无线遥控
+
+write_reg:reg_addr=197,reg_data=1,cb_func=i:0000,cb_cunc2=0x0
+
+write_reg:reg_addr=191,reg_data=2,cb_func=c:d8e5,cb_cunc2=0xffd8e5
+modbus tx:01 06 01 97 00 01 F8 1A
+modbus rx:01 06 01 97 00 01 F8 1A
+modbus tx:01 06 01 91 00 02 58 1A
+modbus rx:01 06 01 91 00 02 58 1A
+modbus cb dealing:cb_func=0xffd8e5
+cb-机器设置,控制方式：g_ctrol_type=1,s_ctrol_type=1,remote_match_switch=2
+modbus no data received error
+modbus repeat tx:01 03 00 00 00 08 44 0C
+
+touch:touch_status=0
+(351, 373)
+
+release:touch_status=1
+(351, 373),tick=23569
+zc-机器设置抬起当前项：6
+zc-机器设置抬起点击项：5
+zc-冷却方式=2
+机器设置弹出菜单：1
+
+touch:touch_status=0
+(447, 282)
+
+release:touch_status=1
+(447, 282),tick=24667
+机器设置二级菜单点击：0
+zc-机器设置-menue=5
+气冷
+
+write_reg:reg_addr=2ad,reg_data=1,cb_func=c:e6f2,cb_cunc2=0xffe6f2
+modbus tx:01 06 02 AD 00 01 D8 53
+modbus rx:01 06 02 AD 00 01 D8 53
+modbus cb dealing:cb_func=0xffe6f2
+cb-机器设置,冷却方式：1
+modbus no data received error
+modbus repeat tx:01 03 00 00 00 08 44 0C
+
+touch:touch_status=0
+(390, 390)
+
+release:touch_status=1
+(390, 390),tick=32707
+zc-机器设置抬起当前项：5
+zc-机器设置抬起点击项：5
+zc-冷却方式=1
+机器设置弹出菜单：0
+
+touch:touch_status=0
+(476, 374)
+
+release:touch_status=1
+(476, 374),tick=33706
+机器设置二级菜单点击：1
+zc-机器设置-menue=5
+水冷
+
+write_reg:reg_addr=2ad,reg_data=2,cb_func=c:e6f2,cb_cunc2=0xffe6f2
+modbus tx:01 06 02 AD 00 02 98 52
+modbus rx:01 06 02 AD 00 02 98 52
+modbus cb dealing:cb_func=0xffe6f2
+cb-机器设置,冷却方式：2
+20s auto back/r/nkeep awake,tick=48803
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(964, 575)
+
+release:touch_status=1
+(964, 575),tick=48855
+touch_val = 0x02
+test 1:btn=2,status=2
+modbus tx:01 03 01 94 00 01 C4 1A
+modbus rx:01 03 02 00 02 39 85
+
+touch:touch_status=0
+(442, 297)
+
+release:touch_status=1
+(442, 297),tick=49923
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：2
+test2
+解析示荩?,
+类型 = 13
+年份 = 24
+月份 = 1
+日期 = 1
+生产单号前3位 = 0
+生产单号后3位 = 0
+物料号前4位 = 0
+物料号后4位 = 0
+序列号 = 1
+13E11000000000000000001
+机器信息加载完成
+touch_val = 0x02
+test 1:btn=2,status=8
+update 2:left_data=219
+
+write_reg:reg_addr=24b,reg_data=219,cb_func=c:e33b,cb_cunc2=0xffe33b
+modbus tx:01 06 02 4B 00 DB B8 3F
+update 2:left_data=216
+
+write_reg:reg_addr=24b,reg_data=216,cb_func=c:e33b,cb_cunc2=0xffe33b
+update 2:left_data=210
+
+write_reg:reg_addr=24b,reg_data=210,cb_func=c:e33b,cb_cunc2=0xffe33b
+repeat:reg_addr=9a,data=210
+modbus rx:01 06 02 4B 00 DB B8 3F
+modbus cb dealing:cb_func=0xffe33b
+cb-synmig主界面,左侧：峰值电流=210，峰值速度=240,母材板厚=120
+update 2:left_data=197
+
+write_reg:reg_addr=24b,reg_data=197,cb_func=c:e33b,cb_cunc2=0xffe33b
+repeat:reg_addr=9a,data=197
+modbus tx:01 06 02 4B 00 C5 38 37
+update 2:left_data=173
+
+write_reg:reg_addr=24b,reg_data=173,cb_func=c:e33b,cb_cunc2=0xffe33b
+modbus rx:01 06 02 4B 00 C5 38 37
+modbus cb dealing:cb_func=0xffe33b
+cb-synmig主界面,左侧：峰值电流=173，峰值速度=240,母材板厚=120
+modbus tx:01 06 02 4B 00 AD 39 D9
+modbus rx:01 06 02 4B 00 AD 39 D9
+modbus cb dealing:cb_func=0xffe33b
+cb-synmig主界面,左侧：峰值电流=173，峰值速度=240,母材板厚=120
+ update external param
+
+readn_order_reg:reg_addr=20,reg_num=65,cb_func=c:b3a6,cb_cunc2=0xffb3a6
+modbus tx:01 03 00 20 00 41 84 30
+modbus rx:01 03 82 00 07 02 8C 00 CE 02 6C 00 CE 02 4C 00 CE 02 4A 00 9B 02 86 00 4A 02 66 00 E1 02 44 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8D 06
+modbus cb dealing:cb_func=0xffb3a6
+cb_query_external_param:reg_num=7
+ data[1]:reg_addr=28c,reg_data=206,addr=81,data=206
+ data[2]:reg_addr=26c,reg_data=206,addr=67,data=206
+ data[3]:reg_addr=24c,reg_data=206,addr=9b,data=206
+ data[4]:reg_addr=24a,reg_data=155,addr=99,data=155
+ data[5]:reg_addr=286,reg_data=74,addr=7b,data=74
+ data[6]:reg_addr=266,reg_data=225,addr=61,data=225
+ data[7]:reg_addr=244,reg_data=80,addr=93,data=80
+
+refresh test：i=0,pageid_now=0,pageid_old=13,pageid_pre=2,pstatus=0
+update 2:left_data=172
+
+write_reg:reg_addr=24b,reg_data=172,cb_func=c:e33b,cb_cunc2=0xffe33b
+update 2:left_data=169
+
+write_reg:reg_addr=24b,reg_data=169,cb_func=c:e33b,cb_cunc2=0xffe33b
+repeat:reg_addr=9a,data=169
+update 2:left_data=160
+
+write_reg:reg_addr=24b,reg_data=160,cb_func=c:e33b,cb_cunc2=0xffe33b
+repeat:reg_addr=9a,data=160
+modbus tx:01 06 02 4B 00 A0 F8 1C
+update 2:left_data=133
+
+write_reg:reg_addr=24b,reg_data=133,cb_func=c:e33b,cb_cunc2=0xffe33b
+update 2:left_data=102
+
+write_reg:reg_addr=24b,reg_data=102,cb_func=c:e33b,cb_cunc2=0xffe33b
+repeat:reg_addr=9a,data=102
+modbus rx:01 06 02 4B 00 A0 F8 1C
+modbus cb dealing:cb_func=0xffe33b
+cb-synmig主界面,左侧：峰值电流=102，峰值速度=155,母材板厚=80
+modbus tx:01 06 02 4B 00 66 78 4E
+modbus rx:01 06 02 4B 00 66 78 4E
+modbus cb dealing:cb_func=0xffe33b
+cb-synmig主界面,左侧：峰值电流=102，峰值速度=155,母材板厚=80
+ update external param
+
+readn_order_reg:reg_addr=20,reg_num=65,cb_func=c:b3a6,cb_cunc2=0xffb3a6
+modbus tx:01 03 00 20 00 41 84 30
+modbus rx:01 03 82 00 07 02 4A 00 4A 02 44 00 0A 02 8C 00 74 02 6C 00 74 02 86 00 65 02 66 00 C6 02 4C 00 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DC 20
+modbus cb dealing:cb_func=0xffb3a6
+cb_query_external_param:reg_num=7
+ data[1]:reg_addr=24a,reg_data=74,addr=99,data=74
+ data[2]:reg_addr=244,reg_data=10,addr=93,data=10
+ data[3]:reg_addr=28c,reg_data=116,addr=81,data=116
+ data[4]:reg_addr=26c,reg_data=116,addr=67,data=116
+ data[5]:reg_addr=286,reg_data=101,addr=7b,data=101
+ data[6]:reg_addr=266,reg_data=198,addr=61,data=198
+ data[7]:reg_addr=24c,reg_data=116,addr=9b,data=116
+
+refresh test：i=0,pageid_now=0,pageid_old=13,pageid_pre=2,pstatus=0
+
+touch:touch_status=0
+(976, 555)
+
+release:touch_status=1
+(976, 555),tick=56268
+touch_val = 0x02
+test 1:btn=2,status=2
+
+touch:touch_status=0
+(441, 229)
+
+release:touch_status=1
+(441, 229),tick=57433
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：1
+
+touch:touch_status=0
+(23, 583)
+
+press:touch_status=1
+(23, 583)
+touch_val = 0x01
+test 1:btn=1,status=8
+
+release:touch_status=1
+(23, 583),tick=58689
+
+touch:touch_status=0
+(360, 441)
+
+release:touch_status=1
+(360, 441),tick=60327
+zc-机器设置抬起当前项：1
+zc-机器设置抬起点击项：4
+机器设置弹出菜单：0
+
+touch:touch_status=0
+(416, 353)
+
+release:touch_status=1
+(416, 353),tick=61351
+机器设置二级菜单点击：1
+zc-机器设置-menue=4
+zc-机器设置-pop_menue=1
+机器设置-寡贡；た?打开
+
+write_reg:reg_addr=195,reg_data=1,cb_func=c:e939,cb_cunc2=0xffe939
+modbus tx:01 06 01 95 00 01 59 DA
+modbus rx:01 06 01 95 00 01 59 DA
+modbus cb dealing:cb_func=0xffe939
+cb-机器设置,寡贡；た兀?
+
+touch:touch_status=0
+(462, 447)
+
+release:touch_status=1
+(462, 447),tick=62445
+zc-机器设置抬起当前项：4
+zc-机器设置抬起点击项：4
+机器设置弹出菜单：1
+
+touch:touch_status=0
+(390, 245)
+
+release:touch_status=1
+(390, 245),tick=63410
+机器设置二级菜单点击：0
+zc-机器设置-menue=4
+zc-机器设置-pop_menue=0
+机器设置-寡贡；た?关闭
+
+write_reg:reg_addr=195,reg_data=0,cb_func=c:e939,cb_cunc2=0xffe939
+modbus tx:01 06 01 95 00 00 98 1A
+modbus rx:01 06 01 95 00 00 98 1A
+modbus cb dealing:cb_func=0xffe939
+cb-机器设置,寡贡；た兀?
+keep awake,tick=64640
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(454, 518)
+modbus tx:01 03 01 94 00 01 C4 1A
+
+release:touch_status=1
+(454, 518),tick=64708
+zc-机器设置抬起当前项：4
+zc-机器设置抬起点击项：5
+zc-冷却方式=2
+机器设置弹出菜单：1
+modbus rx:01 03 02 00 02 39 85
+
+touch:touch_status=0
+(422, 235)
+
+release:touch_status=1
+(422, 235),tick=65769
+机器设置二级菜单点击：0
+zc-机器设置-menue=5
+气冷
+
+write_reg:reg_addr=2ad,reg_data=1,cb_func=c:e6f2,cb_cunc2=0xffe6f2
+modbus tx:01 06 02 AD 00 01 D8 53
+modbus rx:01 06 02 AD 00 01 D8 53
+modbus cb dealing:cb_func=0xffe6f2
+cb-机器设置,冷却方式：1
+
+touch:touch_status=0
+(407, 447)
+机器设置sliding_bar_val = 13
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 22
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 39
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 46
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 56
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 65
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 67
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 74
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 79
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 86
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 89
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 92
+
+press:touch_status=1
+(407, 447)
+机器设置sliding_bar_val = 94
+
+release:touch_status=1
+(407, 447),tick=67806
+
+touch:touch_status=0
+(430, 401)
+
+release:touch_status=1
+(430, 401),tick=68594
+zc-机器设置抬起当前项：5
+zc-机器设置抬起点击项：6
+zc-控制方式=1，s=1
+机器设置弹出菜单：2
+
+touch:touch_status=0
+(499, 390)
+
+release:touch_status=1
+(499, 390),tick=69592
+机器设置二级菜单点击：1
+zc-机器设置-menue=6
+有线遥控
+
+write_reg:reg_addr=197,reg_data=2,cb_func=i:0000,cb_cunc2=0x0
+
+write_reg:reg_addr=191,reg_data=2,cb_func=c:d8e5,cb_cunc2=0xffd8e5
+modbus tx:01 06 01 97 00 02 B8 1B
+modbus rx:01 06 01 97 00 02 B8 1B
+modbus tx:01 06 01 91 00 02 58 1A
+modbus rx:01 06 01 91 00 02 58 1A
+modbus cb dealing:cb_func=0xffd8e5
+cb-机器设置,控制方式：g_ctrol_type=2,s_ctrol_type=2,remote_match_switch=2
+
+touch:touch_status=0
+(436, 386)
+
+release:touch_status=1
+(436, 386),tick=71137
+zc-机器设置抬起当前项：6
+zc-机器设置抬起点击项：6
+zc-控制方式=2，s=2
+机器设置弹出菜单：1
+
+touch:touch_status=0
+(380, 288)
+
+release:touch_status=1
+(380, 288),tick=72015
+机器设置二级菜单点击：0
+zc-机器设置-menue=6
+本机
+
+write_reg:reg_addr=191,reg_data=1,cb_func=c:d8e5,cb_cunc2=0xffd8e5
+modbus tx:01 06 01 91 00 01 18 1B
+modbus rx:01 06 01 91 00 01 18 1B
+modbus cb dealing:cb_func=0xffd8e5
+cb-机器设置,控制方式：g_ctrol_type=0,s_ctrol_type=0,remote_match_switch=1
+20s auto back/r/nkeep awake,tick=99859
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(858, 410)
+
+release:touch_status=1
+(858, 410),tick=99912
+modbus tx:01 03 01 94 00 01 C4 1A
+modbus rx:01 03 02 00 02 39 85
+keep awake,tick=104488
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(981, 563)
+touch_val = 0x02
+test 1:btn=2,status=2
+modbus tx:01 03 01 94 00 01 C4 1A
+
+release:touch_status=1
+(981, 563),tick=104588
+modbus rx:01 03 02 00 02 39 85
+
+touch:touch_status=0
+(387, 260)
+
+release:touch_status=1
+(387, 260),tick=106343
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：1
+
+touch:touch_status=0
+(363, 287)
+
+press:touch_status=1
+(363, 287)
+
+release:touch_status=1
+(363, 287),tick=107324
+release:1
+zc-机器设置-menue=1
+device_setting:lauguage=2
+
+touch:touch_status=0
+(32, 575)
+touch_val = 0x01
+test 1:btn=1,status=7
+
+touch:touch_status=0
+(967, 555)
+
+release:touch_status=1
+(967, 555),tick=109365
+touch_val = 0x02
+test 1:btn=2,status=2
+
+touch:touch_status=0
+(399, 436)
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 17
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 27
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 39
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 43
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 48
+
+press:touch_status=1
+(399, 436)
+机器设置sliding_bar_val = 50
+
+press:touch_status=1
+(399, 436)
+
+press:touch_status=1
+(399, 436)
+
+release:touch_status=1
+(399, 436),tick=110722
+
+touch:touch_status=0
+(413, 463)
+
+release:touch_status=1
+(413, 463),tick=111428
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：6
+zc-控制方式=0，s=0
+机器设置弹出菜单：0
+
+touch:touch_status=0
+(411, 457)
+
+release:touch_status=1
+(411, 457),tick=112321
+机器设置二级菜单点击：2
+zc-机器设置-menue=6
+无线遥控
+
+write_reg:reg_addr=197,reg_data=1,cb_func=i:0000,cb_cunc2=0x0
+
+write_reg:reg_addr=191,reg_data=2,cb_func=c:d8e5,cb_cunc2=0xffd8e5
+modbus tx:01 06 01 97 00 01 F8 1A
+modbus rx:01 06 01 97 00 01 F8 1A
+modbus tx:01 06 01 91 00 02 58 1A
+modbus rx:01 06 01 91 00 02 58 1A
+modbus cb dealing:cb_func=0xffd8e5
+cb-机器设置,控制方式：g_ctrol_type=1,s_ctrol_type=1,remote_match_switch=2
+
+touch:touch_status=0
+(971, 298)
+机器设置sliding_bar_val = 51
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 60
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 140
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 161
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 170
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 170
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 170
+
+press:touch_status=1
+(971, 298)
+机器设置sliding_bar_val = 170
+
+release:touch_status=1
+(971, 298),tick=116265
+modbus no data received error
+modbus repeat tx:01 03 00 00 00 08 44 0C
+20s auto back/r/nkeep awake,tick=130938
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(996, 559)
+modbus tx:01 03 01 94 00 01 C4 1A
+
+press:touch_status=1
+(996, 559)
+touch_val = 0x02
+test 1:btn=2,status=2
+modbus rx:01 03 02 00 02 39 85
+
+release:touch_status=1
+(996, 559),tick=131086
+
+touch:touch_status=0
+(954, 299)
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 2
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 8
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 29
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 40
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 54
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 58
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 69
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 72
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 74
+
+press:touch_status=1
+(954, 299)
+机器设置sliding_bar_val = 76
+
+press:touch_status=1
+(954, 299)
+
+release:touch_status=1
+(954, 299),tick=132916
+
+touch:touch_status=0
+(635, 155)
+
+press:touch_status=1
+(635, 155)
+机器设置菜单按压：2
+
+release:touch_status=1
+(635, 155),tick=133819
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：2
+test2
+解析示荩?,
+类型 = 13
+年份 = 24
+月份 = 1
+日期 = 1
+生产单号前3位 = 0
+生产单号后3位 = 0
+物料号前4位 = 0
+物料号后4位 = 0
+序列号 = 1
+13E11000000000000000001
+机器信息加载完成
+20s auto back/r/n
+touch:touch_status=0
+(37, 550)
+touch_val = 0x01
+test 1:btn=1,status=2
+
+release:touch_status=1
+(37, 550),tick=145439
+keep awake,tick=148526
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(503, 179)
+modbus tx:01 03 01 94 00 01 C4 1A
+
+release:touch_status=1
+(503, 179),tick=148594
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：0
+机器设置弹出菜单：1
+modbus rx:01 03 02 00 02 39 85
+20s auto back/r/n
+touch:touch_status=0
+(933, 550)
+touch_val = 0x02
+test 1:btn=2,status=2
+
+release:touch_status=1
+(933, 550),tick=163581
+20s auto back/r/nkeep awake,tick=322003
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(1004, 564)
+keep awake,tick=322055
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+repeat:reg_addr=23,data=2
+
+release:touch_status=1
+(1004, 564),tick=322073
+touch_val = 0x02
+test 1:btn=2,status=2
+modbus tx:01 03 01 94 00 01 C4 1A
+modbus rx:01 03 02 00 02 39 85
+20s auto back/r/n
+touch:touch_status=0
+(980, 545)
+
+press:touch_status=1
+(980, 545)
+touch_val = 0x02
+test 1:btn=2,status=2
+
+release:touch_status=1
+(980, 545),tick=347530
+keep awake,tick=353839
+
+readn_order_reg:reg_addr=194,reg_num=1,cb_func=i:0000,cb_cunc2=0x0
+
+touch:touch_status=0
+(400, 408)
+
+press:touch_status=1
+(400, 408)
+机器设置sliding_bar_val = 18
+
+press:touch_status=1
+(400, 408)
+机器设置sliding_bar_val = 25
+
+press:touch_status=1
+(400, 408)
+机器设置sliding_bar_val = 36
+modbus tx:01 03 01 94 00 01 C4 1A
+
+press:touch_status=1
+(400, 408)
+机器设置sliding_bar_val = 38
+
+press:touch_status=1
+(400, 408)
+modbus rx:01 03 02 00 02 39 85
+
+press:touch_status=1
+(400, 408)
+
+press:touch_status=1
+(400, 408)
+
+release:touch_status=1
+(400, 408),tick=354245
+
+touch:touch_status=0
+(421, 464)
+
+press:touch_status=1
+(421, 464)
+机器设置sliding_bar_val = 48
+
+press:touch_status=1
+(421, 464)
+机器设置sliding_bar_val = 54
+
+press:touch_status=1
+(421, 464)
+机器设置sliding_bar_val = 62
+
+press:touch_status=1
+(421, 464)
+机器设置sliding_bar_val = 65
+
+press:touch_status=1
+(421, 464)
+机器设置sliding_bar_val = 66
+
+release:touch_status=1
+(421, 464),tick=355352
+
+touch:touch_status=0
+(413, 435)
+
+press:touch_status=1
+(413, 435)
+机器设置菜单按压：6
+
+release:touch_status=1
+(413, 435),tick=355747
+zc-机器设置抬起当前项：0
+zc-机器设置抬起点击项：6
+zc-控制方式=1，s=1
+机器设置弹出菜单：2
+
+touch:touch_status=0
+(305, 257)
+
+release:touch_status=1
+(305, 257),tick=357262
+机器设置二级菜单点击：0
+zc-机器设置-menue=6
+本机
+
+write_reg:reg_addr=191,reg_data=1,cb_func=c:d8e5,cb_cunc2=0xffd8e5
+modbus tx:01 06 01 91 00 01 18 1B
+modbus rx:01 06 01 91 00 01 18 1B
+modbus cb dealing:cb_func=0xffd8e5
+cb-机器设置,控制方式：g_ctrol_type=0,s_ctrol_type=0,remote_match_switch=1
+realtime: deal sleep,tick=359806
+deal sleep
