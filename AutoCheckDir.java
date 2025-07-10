@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 
@@ -10,12 +11,24 @@ import java.nio.file.*;
  */
 public class AutoCheckDir {
     public static void main(String[] args) throws IOException, InterruptedException {
+
+//        File result = Paths.get("result/test2").toFile();
+//        String[] list = result.list();
+//        String[] list1 = result.list((f, name) -> {
+//            return f.isDirectory();
+//        });
+//        String[] list2 = result.list((f, name) -> {
+//            return !f.isDirectory();
+//        });
+
         Rename rename = Rename.getBuilder()
-                .init("renameDir", "renameDir/out")
-                .setStart(0)
-                .setAutoIncrease()
+                .init("renameDir", "result")
+                .setStart(2050)
+                .step(1)
+                .setAppend()
 //                .preSort()
-                .reverse()
+                .sortByName(true)
+//                .reverse()
                 .build();
         rename.start();
 
@@ -33,7 +46,8 @@ public class AutoCheckDir {
 
                 if (kind == StandardWatchEventKinds.ENTRY_CREATE) {
                     Path newFile = (Path) event.context();
-                    System.out.println("新增文件: " + newFile);
+//                    System.out.println("新增文件: " + newFile);
+                    rename.add(newFile);
                 }
             }
 
